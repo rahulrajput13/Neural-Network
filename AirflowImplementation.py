@@ -20,7 +20,7 @@ def load_data(ti):
 def train_model(ti):
     train_data = ti.xcom_pull(key='train_data', task_ids='load_data')
     X_train, y_train = train_data
-    model = SimpleNeuralNetwork(learning_rate=0.01, epochs=5, activation='leaky_relu', loss_function='RMSE', layers=[7, 5, 6], classes=1)
+    model = SimpleNeuralNetwork(learning_rate=0.01, epochs=5, activation='leaky_relu', loss_function='Categorical_Cross_Entropy', layers=[7, 5, 6], classes=1)
     model.train(X_train, y_train)
     ti.xcom_push(key='model', value=model)
 
