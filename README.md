@@ -70,3 +70,13 @@ There are 4 scripts which I used to test the SimpleNeuralNetwrok class for Regre
 ## Future Implementations
 
 This project combines elements of Data Science, Deep Learning, and Data Engineering. Over the next few weeks I aim to implement more features such as Stcohastic Gradient Descent and Regularization for the SimpleNeuralNetwork class.
+
+## Acknowledgements and References
+
+- https://towardsdatascience.com/how-to-choose-the-right-activation-function-for-neural-networks-3941ff0e6f9c
+- https://towardsdatascience.com/a-data-scientists-guide-to-python-virtual-environments-858841922f14
+- https://towardsdatascience.com/building-a-neural-network-from-scratch-8f03c5c50adc
+- https://towardsdatascience.com/understanding-backpropagation-abcc509ca9d0#:~:text=%E2%80%9CEssentially%2C%20backpropagation%20evaluates%20the%20expression,%E2%80%9Cbackwards%20propagated%20error).%E2%80%9D
+- https://towardsdatascience.com/neural-network-the-dead-neuron-eaa92e575748
+- https://stats.stackexchange.com/questions/126238/what-are-the-advantages-of-relu-over-sigmoid-function-in-deep-neural-networks
+- https://studymachinelearning.com/mathematics-behind-the-neural-network/
