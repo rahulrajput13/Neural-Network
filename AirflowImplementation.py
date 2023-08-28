@@ -51,7 +51,7 @@ dag = DAG(
     'simple_neural_network',
     default_args=default_args,
     description='A simple neural network using Airflow',
-    schedule=timedelta(days=1),
+    schedule=timedelta(minutes=1), #days=1
     start_date=pendulum.today('UTC').add(days=-1),
     tags=['example'],
 )
